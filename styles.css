@@ -23,6 +23,12 @@ p{font-family:comic sans MS;
 color:#FF3F33;
 font-size:20px;
 }
+p.error{ color:red;
+font-size:18px;
+border:2px solid green;
+padding:20px;
+margin:10px;
+}
 a:link{color:purple;
 background-color:transparent;
 text-decoration:none;
