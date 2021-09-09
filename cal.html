@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Calculator</title>
+<style>
+div.container{
+text-align:center;
+margin-top:25px; 
+}
+h1{
+font-size:45px;
+padding:20px;  
+background-color:black;  
+color:white;  
+font-family:arial;
+}
+table{
+margin:auto;
+}
+input{
+font-size:30px;
+border:5px solid black;
+width:430px; 
+height:50px;
+border-radius:20px;
+}
+div.calculator{
+border:4px solid black;
+background-color:grey;
+display:inline-block;
+padding:10px;
+border-radius:45px;
+}
+button{
+border:2px solid black;
+border-radius:16px;
+width:90px;
+background-color:orange;    
+font-size:35px;  
+cursor:pointer;
+height:90px;
+margin:5px;
+}
+button:hover{
+background-color:red;}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Calculator</h1>
+<div class="calculator">
+<input type="text" name="screen" id="screen">
+<table>
+<tr>
+<td><button>(</button></td>
+<td><button>)</button></td>
+<td><button>C</button></td>
+<td><button>%</button></td>
+</tr>
+<tr>
+<td><button>7</button></td>
+<td><button>8</button></td>
+<td><button>9</button></td>
+<td><button>X</button></td>
+</tr>
+<tr>
+<td><button>4</button></td>
+<td><button>5</button></td>
+<td><button>6</button></td>
+<td><button>-</button></td>
+</tr>
+<tr>
+<td><button>1</button></td>
+<td><button>2</button></td>
+<td><button>3</button></td>
+<td><button>+</button></td>
+</tr>
+<tr>
+<td><button>.</button></td>
+<td><button>0</button></td>
+<td><button>=</button></td>
+<td><button>/</button></td>
+</tr>
+</table>
+</div>
+</div>
+</body>
+<script src="index.js"></script>
+</html>
