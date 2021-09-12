@@ -1,0 +1,66 @@
+body{background-image:url('https://th.bing.com/th/id/R.96c59af7e47158f9efd586f8cc520400?rik=eTI%2bTLpvo0yIzw&riu=http%3a%2f%2fdata.freehdw.com%2fblogger-backgrounds-free.jpg&ehk=8%2fbh%2bCqpuuj6Rb1bzf1yR8OEp3e9KtGgYsar2aVfj24%3d&risl=&pid=ImgRaw&r=0');
+background-size:cover;
+}
+h1{text-align:center;
+background-color:black;
+color:white;
+font-family:verdana;
+}
+input{
+font-family:comic sans MS;
+font-size:18px;
+height:45px;
+width:500px;
+border:2px solid lightgray;
+border-radius:20px;
+}
+button{
+height:35px;
+font-size:20px;
+cursor:pointer;
+display:inline-block;
+background-color:#fc999b;
+color:#ffffff;
+border-radius: 5px;
+padding: 5px 15px;
+}
+button:hover{
+background:#b5b3b3;
+}
+ol {
+text-align:left;
+width:40%;
+position:relative;
+left:30%;
+}
+ol li{
+font-size:20px;
+font-family:comic sans ms;
+margin-top:5px;
+padding:10px;
+border-radius:10px;
+width:80%;
+}
+ol li:nth-child(even)
+{
+background-color:lightyellow;
+}
+ol li:nth-child(odd)
+{
+background-color:powderblue;
+}
+ol li:hover{
+background-color:#F1E5C3;
+}
+.strike{text-decoration: line-through;
+}
+.del{
+	float:right;
+	border-radius:15px;
+	padding:4px;
+	font-family:arial;
+	cursor:pointer;
+}
+.del:hover{
+background-color:white;
+}
