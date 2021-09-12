@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project using jQuery</title>
+<link rel="stylesheet" href="styles1.css">
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<script>
+$(document).ready(function() { 
+$("#btn").click(function(){
+var toAdd = $('input').val();
+if(toAdd!=" "){
+$('ol').append('<li>' + toAdd + '<i class="del">'+'X'+'</i>'+'</li>')
+$('input').val(' ')
+}
+else
+{
+alert('You must write something!')
+}
+});
+$("input").keypress(function(event){
+          if(event.keyCode == 13){
+            $("#btn").click();
+          }         
+      });
+$(document).on('click','.del', function(){
+$(this).parent().fadeOut('slow');  
+});
+});
+</script>
+</head>
+<body>
+<h1>To-do list</h1>
+<br><br><br>
+<center>
+<input type="text" placeholder="Enter to-do work:" name="list">
+<button id="btn">Add</button>
+</center>
+<br>
+<ol>
+</ol>
+</body>
+</html>
+
